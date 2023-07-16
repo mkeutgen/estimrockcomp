@@ -13,15 +13,12 @@ Therefore the binary logratio (blr) function for a vector representing a chemica
 $$ blr(x_1,\dots,x_D) = [logit(x_1),\dots,logit(x_D)] $$
 
 
-
-
-
-
-
-
 ## How to replicate our work 
 
 
+
+
+## How to implement our methods in your own results
 
 
 
