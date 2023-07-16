@@ -4,7 +4,7 @@
 
 Supporting code &amp; data for the manuscript "Estimating rock composition from replicate geochemical analyses: theory and application to magmatic rocks of the GeoPT database" by Maxime Keutgen De Greef, Gert Jan Weltje (KU Leuven) and Irène Gijbels (KU Leuven).
 
-The main idea behind the paper is that the proper sample space for chemical analyses is the unit-hypercube, defined as the set of row-vectors whose coordinates belong to the (0,1) open set. The implication of this observation is that to do a statistical analysis of random vectors representing chemical analyses, one should first transform those random vectors living in the hypercube into their coordinates in the real space with the binary logratio (blr) function, understood as 
+The main idea behind the paper is that the proper sample space for chemical analyses is the unit-hypercube, defined as the set of row-vectors whose coordinates belong to the (0,1) open set. The implication of this observation is that to do a statistical analysis of random vectors representing chemical analyses, one should first transform those random vectors living in the hypercube into their coordinates in the real space with the binary logratio (blr) function, understood as a multivariate function applying to the component of its argument the logit ($logit(x) = log(x/1-x)$) function : 
 
 $$ blr(x_1,\dots,x_D) = [logit(x_1),\dots,logit(x_D)] $$
 
