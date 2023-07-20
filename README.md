@@ -13,14 +13,20 @@ Therefore the binary logratio (blr) function for a vector representing a chemica
 $$ blr(x_1,\dots,x_D) = [logit(x_1),\dots,logit(x_D)] $$
 
 And it maps a vector of chemical analysis living in $\mathbb{H}^D$ to the $D$ dimensional real space $\mathbb{R}^D$.
+
+
 ## How to replicate our work 
+
+
 
 
 
 
 ## How to implement our methods in your own results
 
+The optimized blr mean estimator is implemented in the first algorithm file (algo1_data_acquisition_process.R). The "optimizing.blr.mean"" is the function which computes the optimized blr mean estimate of a set of chemical analyses.
 
+We suggest to use this function to estimate the mean of a set of chemical analyses constrained to the hypercube.
 
 ## Structure of the repository
 
